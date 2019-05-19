@@ -2,7 +2,7 @@ body {
     background-color: #fff;
 }
 
-p {
+p, label {
     font-family: verdana;
 }
 
