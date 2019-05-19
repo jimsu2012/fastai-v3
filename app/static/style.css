@@ -2,7 +2,7 @@ body {
     background-color: #fff;
 }
 
-p, label {
+h1, h2, h3, p, label {
     font-family: verdana, sans-serif;
 }
 
@@ -44,5 +44,3 @@ p, label {
     padding: 10px;
     font-size: 13px;
 }
-
-/*button:focus {outline:0;}*/
