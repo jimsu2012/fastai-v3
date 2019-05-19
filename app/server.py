@@ -54,7 +54,7 @@ async def analyze(request):
     data = await request.form()
     img_bytes = await (data['file'].read())
     img = open_image(BytesIO(img_bytes))
-    img.apply_tfms(size=224, resize_method=ResizeMethod.SQUISH)
+    img.apply_tfms(tfms=get_transforms(), size=224, resize_method=ResizeMethod.SQUISH)
     prediction = learn.predict(img)[0]
     return JSONResponse({'result': str(prediction)})
 
