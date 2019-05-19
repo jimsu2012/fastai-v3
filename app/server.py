@@ -8,9 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-# export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-3CDYWmYbF2W4xj-b1IicMwg1YhP5IPz'
-export_file_name = 'er-3.pkl'
+# er-3.pkl: export_file_url = 'https://drive.google.com/uc?export=download&id=1-3CDYWmYbF2W4xj-b1IicMwg1YhP5IPz'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-6FwDMy9Fb_ZbHCO91Z04Jezsmx_Q0XM'
+export_file_name = 'er-1p5.pkl'
 
 classes = ['man', 'woman']
 path = Path(__file__).parent
@@ -54,6 +54,7 @@ async def analyze(request):
     data = await request.form()
     img_bytes = await (data['file'].read())
     img = open_image(BytesIO(img_bytes))
+    img.transform(get_transforms(), size=224, resize_method=ResizeMethod.SQUISH)
     prediction = learn.predict(img)[0]
     return JSONResponse({'result': str(prediction)})
 
