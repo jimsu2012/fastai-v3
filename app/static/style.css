@@ -3,7 +3,7 @@ body {
 }
 
 p, label {
-    font-family: verdana;
+    font-family: verdana, sans-serif;
 }
 
 .no-display {
@@ -13,8 +13,8 @@ p, label {
 .center {
     margin: auto;
     padding: 10px;
-    padding-left:50px;
-    padding-right:50px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
     font-size: 14px;
 }
@@ -45,24 +45,4 @@ p, label {
     font-size: 13px;
 }
 
-button.choose-file-button {
-  width: 200px;
-  height: 40px;
-  border-radius: 2px;
-  background-color: #ffffff;
-  border: solid 1px #428bca;
-  font-size: 13px;
-  color: #428bca;
-}
-
-button.analyze-button {
-    width: 200px;
-    height: 40px;
-    border: solid 1px #428bca;
-    border-radius: 2px;
-    background-color: #428bca;
-    font-size: 13px;
-    color: #ffffff;
-}
-
-button:focus {outline:0;}
+/*button:focus {outline:0;}*/
