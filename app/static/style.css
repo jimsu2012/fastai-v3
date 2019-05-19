@@ -40,8 +40,7 @@ h1, h2, h3, p, label {
     font-size: 12px;
 }
 
-.result-label {
+.result-text {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
 }
