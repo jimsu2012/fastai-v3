@@ -2,6 +2,10 @@ body {
     background-color: #fff;
 }
 
+p {
+    font-family: helvetica;
+}
+
 .no-display {
     display: none;
 }
