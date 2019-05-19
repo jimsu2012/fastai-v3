@@ -9,8 +9,8 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1QJ6UnRmTTph7tUvoS2jllKC3cyOQf3hk'
-export_file_name = 'er-4'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-3CDYWmYbF2W4xj-b1IicMwg1YhP5IPz'
+export_file_name = 'er-3.pkl'
 
 classes = ['man', 'woman']
 path = Path(__file__).parent
