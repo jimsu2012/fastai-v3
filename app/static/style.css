@@ -7,23 +7,39 @@ h1, h2, h3, p, label {
 }
 
 @media (max-width: 767px) {
-  .lg-view {
-    display: none;
-  }
+    .lg-view {
+        display: none;
+    }
+    
+    .margin-top-1-em {
+        margin-top: 0.5em;
+    }
+
+    .margin-bottom-1-em {
+        margin-bottom: 1em;
+    }
+    
+    .content {
+        margin-top: 2em;
+    }
 }
 
 @media (min-width: 768px) {
-  .sm-view {
-    display: none;
-  }
-}
+    .sm-view {
+        display: none;
+    }
+    
+    .margin-top-1-em {
+        margin-top: 1em;
+    }
 
-.margin-top-1-em {
-    margin-top: 1em;
-}
-
-.margin-bottom-1-em {
-    margin-bottom: 1em;
+    .margin-bottom-1-em {
+        margin-bottom: 1em;
+    }
+    
+    .content {
+        margin-top: 5em;
+    }
 }
 
 .no-display {
@@ -37,10 +53,6 @@ h1, h2, h3, p, label {
     padding-right: 50px;
     text-align: center;
     font-size: 14px;
-}
-
-.content {
-    margin-top: 2em;
 }
 
 .analyze {
