@@ -11,7 +11,7 @@ h1, h2, h3, p, label {
 }
 
 .margin-bottom-2-em {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .no-display {
@@ -28,7 +28,7 @@ h1, h2, h3, p, label {
 }
 
 .content {
-    margin-top: 5em;
+    margin-top: 2.5em;
 }
 
 .analyze {
