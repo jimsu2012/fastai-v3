@@ -2,8 +2,8 @@ aiofiles==0.4.0
 aiohttp==3.5.4
 asyncio==3.4.3
 fastai==1.0.54
-https://files.pythonhosted.org/packages/2e/45/0f2f3062c92d9cf1d5d7eabd3cae88cea9affbd2b17fb1c043627838cb0a/torchvision-0.3.0-cp36-cp36m-manylinux1_x86_64.whl 5
-https://files.pythonhosted.org/packages/2e/45/0f2f3062c92d9cf1d5d7eabd3cae88cea9affbd2b17fb1c043627838cb0a/torchvision-0.3.0-cp36-cp36m-manylinux1_x86_64.whl 5
+https://files.pythonhosted.org/packages/2e/45/0f2f3062c92d9cf1d5d7eabd3cae88cea9affbd2b17fb1c043627838cb0a/torchvision-0.3.0-cp36-cp36m-manylinux1_x86_64.whl
+https://files.pythonhosted.org/packages/2e/45/0f2f3062c92d9cf1d5d7eabd3cae88cea9affbd2b17fb1c043627838cb0a/torchvision-0.3.0-cp36-cp36m-manylinux1_x86_64.whl
 numpy==1.16.3
 starlette==0.12.0
 uvicorn==0.7.1
